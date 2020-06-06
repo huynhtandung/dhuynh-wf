@@ -1,0 +1,62 @@
+.container {
+  width: 300px;
+  background-color: darkcyan;
+  padding-bottom: 10px;
+  min-height: 444px;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: cursive;
+  margin: 50px auto;
+}
+img {
+  width: 100px;
+  margin-bottom: 0px;
+}
+
+body {
+  text-align: center;
+}
+
+input.txtCity {
+  margin-top: 20px;
+  height: 30px;
+  border-radius: 10px;
+  width: 235px;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+  border: none;
+  color: darkcyan;
+}
+
+ul {
+  list-style-type: none;
+  background-color: white;
+  width: 206px;
+  margin-left: 27px;
+  margin-top: 10px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  max-height: 360px;
+}
+li {
+  padding-right: 27px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: darkcyan;
+}
+.result {
+  color: white;
+  margin-top: -20px;
+}
+.temp,
+.humidity,
+.sun-raise,
+.sun-set,
+.status {
+  color: black !important;
+}
+.status {
+  font-size: 25px;
+}

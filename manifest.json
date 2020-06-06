@@ -1,0 +1,11 @@
+{
+  "name": "Weather Forcast",
+  "description": "Vietnamese Cities Weather Forecast",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": "./images/icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": ["https://openweathermap.org/api", "geolocation"],
+  "manifest_version": 2
+}
